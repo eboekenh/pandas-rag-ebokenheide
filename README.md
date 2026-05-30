@@ -40,7 +40,7 @@ pandas-rag-chatbot/
 ├── data/
 │   ├── raw/                      # 23 scraped .txt files (one per pandas page)
 │   └── processed/
-│       └── qa_dataset_ollama.csv # ~1,800 generated Q&A pairs
+│       └── qa_dataset_ollama.csv # ~1,347 generated Q&A pairs
 │
 └── chroma_db/                    # Persistent ChromaDB storage (docs + qa)
 ```
@@ -249,7 +249,7 @@ All settings live in `config.py`:
 | Asset | Location | Description |
 |-------|----------|-------------|
 | Raw docs | `data/raw/*.txt` | 23 cleaned text files |
-| Q&A dataset | `data/processed/qa_dataset_ollama.csv` | ~1,800 generated Q&A pairs |
+| Q&A dataset | `data/processed/qa_dataset_ollama.csv` | ~1,347 generated Q&A pairs |
 | Vector store | `chroma_db/` | ChromaDB persistent storage (docs + qa) |
 
 ---
