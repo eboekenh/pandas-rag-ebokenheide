@@ -257,7 +257,7 @@ All settings live in `config.py`:
 ## Limitations
 
 - Static dataset — no automatic update when pandas releases a new version
-- Local Ollama inference is slower than cloud APIs (CPU-only, ~5–15 s per response)
+- Local Ollama inference is slower than cloud APIs 
 - Hybrid threshold (0.6) was set empirically; formal optimisation would require a labelled eval set
 - Coverage limited to 23 selected User Guide pages; API Reference not included
 - In-memory conversation history — lost on page refresh
