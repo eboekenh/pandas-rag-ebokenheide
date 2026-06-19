@@ -11,7 +11,7 @@ Built for **AGAI-03 Assignment 1 – Website-Specific RAG Chatbot using Scraping
 | Phase | Description |
 |-------|-------------|
 | **Scrape** | Downloads and cleans 23 pandas User Guide pages |
-| **Generate** | Creates ~1,800 synthetic Q&A pairs via local Ollama (`llama3.1:8b`) |
+| **Generate** | Creates 1,347 synthetic Q&A pairs via local Ollama (`llama3.1:8b`) |
 | **Index** | Builds two ChromaDB vector stores (docs + Q&A pairs) |
 | **Retrieve** | Hybrid retrieval: Q&A semantic match first, doc-chunk fallback |
 | **Answer** | Ollama LLM synthesises grounded answers with source citations |
